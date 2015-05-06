@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A1E96621AB0A91800C629C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E96611AB0A91800C629C6 /* Foundation.framework */; };
+		6A1E96641AB0A91800C629C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E96631AB0A91800C629C6 /* CoreGraphics.framework */; };
+		6A1E96661AB0A91800C629C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E96651AB0A91800C629C6 /* UIKit.framework */; };
+		6A1E966C1AB0A91800C629C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E966A1AB0A91800C629C6 /* InfoPlist.strings */; };
+		6A1E966E1AB0A91800C629C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E966D1AB0A91800C629C6 /* main.m */; };
+		6A1E96721AB0A91800C629C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E96711AB0A91800C629C6 /* AppDelegate.m */; };
+		6A1E96741AB0A91800C629C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E96731AB0A91800C629C6 /* Images.xcassets */; };
+		6A1E967B1AB0A91800C629C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E967A1AB0A91800C629C6 /* XCTest.framework */; };
+		6A1E967C1AB0A91800C629C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E96611AB0A91800C629C6 /* Foundation.framework */; };
+		6A1E967D1AB0A91800C629C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E96651AB0A91800C629C6 /* UIKit.framework */; };
+		6A1E96851AB0A91800C629C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E96831AB0A91800C629C6 /* InfoPlist.strings */; };
+		6A1E96871AB0A91800C629C6 /* MeteorFallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E96861AB0A91800C629C6 /* MeteorFallTests.m */; };
+		6A1E96931AB0A95300C629C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E96911AB0A95300C629C6 /* MainViewController.m */; };
+		6A1E96941AB0A95300C629C6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E96921AB0A95300C629C6 /* MainViewController.xib */; };
+		6A1E96981AB0A97800C629C6 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E96961AB0A97800C629C6 /* PlayViewController.m */; };
+		6A1E96991AB0A97800C629C6 /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E96971AB0A97800C629C6 /* PlayViewController.xib */; };
+		6A91C5C31AB0B926007CDFD7 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91C5C11AB0B926007CDFD7 /* OptionsViewController.m */; };
+		6A91C5C41AB0B926007CDFD7 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91C5C21AB0B926007CDFD7 /* OptionsViewController.xib */; };
+		6A91C5C81AB0B939007CDFD7 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91C5C61AB0B939007CDFD7 /* StatsViewController.m */; };
+		6A91C5C91AB0B939007CDFD7 /* StatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91C5C71AB0B939007CDFD7 /* StatsViewController.xib */; };
+		6A91C5CD1AB0B94E007CDFD7 /* InstructViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91C5CB1AB0B94E007CDFD7 /* InstructViewController.m */; };
+		6A91C5CE1AB0B94E007CDFD7 /* InstructViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91C5CC1AB0B94E007CDFD7 /* InstructViewController.xib */; };
+		6A91C5D21AB0B962007CDFD7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91C5D01AB0B962007CDFD7 /* AboutViewController.m */; };
+		6A91C5D31AB0B962007CDFD7 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A91C5D11AB0B962007CDFD7 /* AboutViewController.xib */; };
+		6AB5BC731ACDD163009BF647 /* SkinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5BC711ACDD163009BF647 /* SkinsViewController.m */; };
+		6AB5BC741ACDD163009BF647 /* SkinsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5BC721ACDD163009BF647 /* SkinsViewController.xib */; };
+		6AB5BC791ACDD498009BF647 /* gameHero6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5BC751ACDD498009BF647 /* gameHero6.png */; };
+		6AB5BC7A1ACDD498009BF647 /* gameHero5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5BC761ACDD498009BF647 /* gameHero5.png */; };
+		6AB5BC7B1ACDD498009BF647 /* gameHero4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5BC771ACDD498009BF647 /* gameHero4.png */; };
+		6AB5BC7C1ACDD498009BF647 /* gameHero3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5BC781ACDD498009BF647 /* gameHero3.png */; };
+		7012E41E1ACCCE2E0014042E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7012E41D1ACCCE2E0014042E /* Entitlements.plist */; };
+		704947341ACCDF40007F1DB6 /* subMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 704947331ACCDF40007F1DB6 /* subMenu.png */; };
+		704947371ACD11C2007F1DB6 /* mfall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 704947361ACD11C2007F1DB6 /* mfall.m4a */; };
+		A956A3641AC4F114000F928D /* buttonL.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3511AC4F114000F928D /* buttonL.png */; };
+		A956A3651AC4F114000F928D /* buttonR.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3521AC4F114000F928D /* buttonR.png */; };
+		A956A3661AC4F114000F928D /* gameBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3531AC4F114000F928D /* gameBG.png */; };
+		A956A3671AC4F114000F928D /* gameHero1.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3541AC4F114000F928D /* gameHero1.png */; };
+		A956A3681AC4F114000F928D /* gameHero2.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3551AC4F114000F928D /* gameHero2.png */; };
+		A956A3691AC4F114000F928D /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3561AC4F114000F928D /* icon120.png */; };
+		A956A36A1AC4F114000F928D /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3571AC4F114000F928D /* icon58.png */; };
+		A956A36B1AC4F114000F928D /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3581AC4F114000F928D /* icon80.png */; };
+		A956A36C1AC4F114000F928D /* logoP1.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3591AC4F114000F928D /* logoP1.png */; };
+		A956A36D1AC4F114000F928D /* logoP2.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35A1AC4F114000F928D /* logoP2.png */; };
+		A956A36E1AC4F114000F928D /* logoP3.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35B1AC4F114000F928D /* logoP3.png */; };
+		A956A36F1AC4F114000F928D /* logoP4.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35C1AC4F114000F928D /* logoP4.png */; };
+		A956A3701AC4F114000F928D /* menuAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35D1AC4F114000F928D /* menuAbout.png */; };
+		A956A3711AC4F114000F928D /* menuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35E1AC4F114000F928D /* menuBG.png */; };
+		A956A3721AC4F114000F928D /* menuGameover.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A35F1AC4F114000F928D /* menuGameover.png */; };
+		A956A3731AC4F114000F928D /* menuInstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3601AC4F114000F928D /* menuInstructions.png */; };
+		A956A3741AC4F114000F928D /* menuOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3611AC4F114000F928D /* menuOptions.png */; };
+		A956A3751AC4F114000F928D /* menuStatistics.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3621AC4F114000F928D /* menuStatistics.png */; };
+		A956A3761AC4F114000F928D /* meteorflame.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A3631AC4F114000F928D /* meteorflame.png */; };
+		A9B5FC001AC51DD00012AD51 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B5FBFF1AC51DD00012AD51 /* logo3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A1E967E1AB0A91800C629C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1E96561AB0A91800C629C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A1E965D1AB0A91800C629C6;
+			remoteInfo = MeteorFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A1E965E1AB0A91800C629C6 /* MeteorFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1E96611AB0A91800C629C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A1E96631AB0A91800C629C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A1E96651AB0A91800C629C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A1E96691AB0A91800C629C6 /* MeteorFall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeteorFall-Info.plist"; sourceTree = "<group>"; };
+		6A1E966B1AB0A91800C629C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1E966D1AB0A91800C629C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A1E966F1AB0A91800C629C6 /* MeteorFall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeteorFall-Prefix.pch"; sourceTree = "<group>"; };
+		6A1E96701AB0A91800C629C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A1E96711AB0A91800C629C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A1E96731AB0A91800C629C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A1E96791AB0A91800C629C6 /* MeteorFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1E967A1AB0A91800C629C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A1E96821AB0A91800C629C6 /* MeteorFallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeteorFallTests-Info.plist"; sourceTree = "<group>"; };
+		6A1E96841AB0A91800C629C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A1E96861AB0A91800C629C6 /* MeteorFallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeteorFallTests.m; sourceTree = "<group>"; };
+		6A1E96901AB0A95300C629C6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		6A1E96911AB0A95300C629C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		6A1E96921AB0A95300C629C6 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		6A1E96951AB0A97800C629C6 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayViewController.h; path = ../PlayViewController.h; sourceTree = "<group>"; };
+		6A1E96961AB0A97800C629C6 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayViewController.m; path = ../PlayViewController.m; sourceTree = "<group>"; };
+		6A1E96971AB0A97800C629C6 /* PlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayViewController.xib; path = ../PlayViewController.xib; sourceTree = "<group>"; };
+		6A91C5C01AB0B926007CDFD7 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		6A91C5C11AB0B926007CDFD7 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		6A91C5C21AB0B926007CDFD7 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		6A91C5C51AB0B939007CDFD7 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		6A91C5C61AB0B939007CDFD7 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		6A91C5C71AB0B939007CDFD7 /* StatsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatsViewController.xib; sourceTree = "<group>"; };
+		6A91C5CA1AB0B94E007CDFD7 /* InstructViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructViewController.h; sourceTree = "<group>"; };
+		6A91C5CB1AB0B94E007CDFD7 /* InstructViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructViewController.m; sourceTree = "<group>"; };
+		6A91C5CC1AB0B94E007CDFD7 /* InstructViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructViewController.xib; sourceTree = "<group>"; };
+		6A91C5CF1AB0B962007CDFD7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		6A91C5D01AB0B962007CDFD7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		6A91C5D11AB0B962007CDFD7 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		6AB5BC701ACDD163009BF647 /* SkinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkinsViewController.h; path = meteorfall/SkinsViewController.h; sourceTree = SOURCE_ROOT; };
+		6AB5BC711ACDD163009BF647 /* SkinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkinsViewController.m; path = meteorfall/SkinsViewController.m; sourceTree = SOURCE_ROOT; };
+		6AB5BC721ACDD163009BF647 /* SkinsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkinsViewController.xib; path = meteorfall/SkinsViewController.xib; sourceTree = SOURCE_ROOT; };
+		6AB5BC751ACDD498009BF647 /* gameHero6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero6.png; sourceTree = "<group>"; };
+		6AB5BC761ACDD498009BF647 /* gameHero5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero5.png; sourceTree = "<group>"; };
+		6AB5BC771ACDD498009BF647 /* gameHero4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero4.png; sourceTree = "<group>"; };
+		6AB5BC781ACDD498009BF647 /* gameHero3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero3.png; sourceTree = "<group>"; };
+		7012E41D1ACCCE2E0014042E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		704947331ACCDF40007F1DB6 /* subMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subMenu.png; sourceTree = "<group>"; };
+		704947361ACD11C2007F1DB6 /* mfall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = mfall.m4a; sourceTree = "<group>"; };
+		A956A3511AC4F114000F928D /* buttonL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonL.png; sourceTree = "<group>"; };
+		A956A3521AC4F114000F928D /* buttonR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonR.png; sourceTree = "<group>"; };
+		A956A3531AC4F114000F928D /* gameBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBG.png; sourceTree = "<group>"; };
+		A956A3541AC4F114000F928D /* gameHero1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero1.png; sourceTree = "<group>"; };
+		A956A3551AC4F114000F928D /* gameHero2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameHero2.png; sourceTree = "<group>"; };
+		A956A3561AC4F114000F928D /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		A956A3571AC4F114000F928D /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		A956A3581AC4F114000F928D /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		A956A3591AC4F114000F928D /* logoP1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoP1.png; sourceTree = "<group>"; };
+		A956A35A1AC4F114000F928D /* logoP2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoP2.png; sourceTree = "<group>"; };
+		A956A35B1AC4F114000F928D /* logoP3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoP3.png; sourceTree = "<group>"; };
+		A956A35C1AC4F114000F928D /* logoP4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoP4.png; sourceTree = "<group>"; };
+		A956A35D1AC4F114000F928D /* menuAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuAbout.png; sourceTree = "<group>"; };
+		A956A35E1AC4F114000F928D /* menuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBG.png; sourceTree = "<group>"; };
+		A956A35F1AC4F114000F928D /* menuGameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuGameover.png; sourceTree = "<group>"; };
+		A956A3601AC4F114000F928D /* menuInstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuInstructions.png; sourceTree = "<group>"; };
+		A956A3611AC4F114000F928D /* menuOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuOptions.png; sourceTree = "<group>"; };
+		A956A3621AC4F114000F928D /* menuStatistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuStatistics.png; sourceTree = "<group>"; };
+		A956A3631AC4F114000F928D /* meteorflame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meteorflame.png; sourceTree = "<group>"; };
+		A9B5FBFF1AC51DD00012AD51 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1E965B1AB0A91800C629C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E96641AB0A91800C629C6 /* CoreGraphics.framework in Frameworks */,
+				6A1E96661AB0A91800C629C6 /* UIKit.framework in Frameworks */,
+				6A1E96621AB0A91800C629C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1E96761AB0A91800C629C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E967B1AB0A91800C629C6 /* XCTest.framework in Frameworks */,
+				6A1E967D1AB0A91800C629C6 /* UIKit.framework in Frameworks */,
+				6A1E967C1AB0A91800C629C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A1E96551AB0A91800C629C6 = {
+			isa = PBXGroup;
+			children = (
+				7012E41D1ACCCE2E0014042E /* Entitlements.plist */,
+				6A1E96671AB0A91800C629C6 /* MeteorFall */,
+				6A1E96801AB0A91800C629C6 /* MeteorFallTests */,
+				6A1E96601AB0A91800C629C6 /* Frameworks */,
+				6A1E965F1AB0A91800C629C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A1E965F1AB0A91800C629C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E965E1AB0A91800C629C6 /* MeteorFall.app */,
+				6A1E96791AB0A91800C629C6 /* MeteorFallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A1E96601AB0A91800C629C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E96611AB0A91800C629C6 /* Foundation.framework */,
+				6A1E96631AB0A91800C629C6 /* CoreGraphics.framework */,
+				6A1E96651AB0A91800C629C6 /* UIKit.framework */,
+				6A1E967A1AB0A91800C629C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1E96671AB0A91800C629C6 /* MeteorFall */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E96701AB0A91800C629C6 /* AppDelegate.h */,
+				6A1E96711AB0A91800C629C6 /* AppDelegate.m */,
+				6A1E96901AB0A95300C629C6 /* MainViewController.h */,
+				6A1E96911AB0A95300C629C6 /* MainViewController.m */,
+				6A1E96921AB0A95300C629C6 /* MainViewController.xib */,
+				6A1E96951AB0A97800C629C6 /* PlayViewController.h */,
+				6A1E96961AB0A97800C629C6 /* PlayViewController.m */,
+				6A1E96971AB0A97800C629C6 /* PlayViewController.xib */,
+				6A91C5C01AB0B926007CDFD7 /* OptionsViewController.h */,
+				6A91C5C11AB0B926007CDFD7 /* OptionsViewController.m */,
+				6A91C5C21AB0B926007CDFD7 /* OptionsViewController.xib */,
+				6AB5BC701ACDD163009BF647 /* SkinsViewController.h */,
+				6AB5BC711ACDD163009BF647 /* SkinsViewController.m */,
+				6AB5BC721ACDD163009BF647 /* SkinsViewController.xib */,
+				6A91C5C51AB0B939007CDFD7 /* StatsViewController.h */,
+				6A91C5C61AB0B939007CDFD7 /* StatsViewController.m */,
+				6A91C5C71AB0B939007CDFD7 /* StatsViewController.xib */,
+				6A91C5CA1AB0B94E007CDFD7 /* InstructViewController.h */,
+				6A91C5CB1AB0B94E007CDFD7 /* InstructViewController.m */,
+				6A91C5CC1AB0B94E007CDFD7 /* InstructViewController.xib */,
+				6A91C5CF1AB0B962007CDFD7 /* AboutViewController.h */,
+				6A91C5D01AB0B962007CDFD7 /* AboutViewController.m */,
+				6A91C5D11AB0B962007CDFD7 /* AboutViewController.xib */,
+				6A1E96731AB0A91800C629C6 /* Images.xcassets */,
+				6A1E96681AB0A91800C629C6 /* Supporting Files */,
+			);
+			path = MeteorFall;
+			sourceTree = "<group>";
+		};
+		6A1E96681AB0A91800C629C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A956A3501AC4F114000F928D /* images */,
+				6A1E96691AB0A91800C629C6 /* MeteorFall-Info.plist */,
+				6A1E966A1AB0A91800C629C6 /* InfoPlist.strings */,
+				6A1E966D1AB0A91800C629C6 /* main.m */,
+				6A1E966F1AB0A91800C629C6 /* MeteorFall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A1E96801AB0A91800C629C6 /* MeteorFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E96861AB0A91800C629C6 /* MeteorFallTests.m */,
+				6A1E96811AB0A91800C629C6 /* Supporting Files */,
+			);
+			path = MeteorFallTests;
+			sourceTree = "<group>";
+		};
+		6A1E96811AB0A91800C629C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1E96821AB0A91800C629C6 /* MeteorFallTests-Info.plist */,
+				6A1E96831AB0A91800C629C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A956A3501AC4F114000F928D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5BC751ACDD498009BF647 /* gameHero6.png */,
+				6AB5BC761ACDD498009BF647 /* gameHero5.png */,
+				6AB5BC771ACDD498009BF647 /* gameHero4.png */,
+				6AB5BC781ACDD498009BF647 /* gameHero3.png */,
+				A956A3511AC4F114000F928D /* buttonL.png */,
+				A956A3521AC4F114000F928D /* buttonR.png */,
+				A956A3531AC4F114000F928D /* gameBG.png */,
+				A956A3541AC4F114000F928D /* gameHero1.png */,
+				A956A3551AC4F114000F928D /* gameHero2.png */,
+				704947361ACD11C2007F1DB6 /* mfall.m4a */,
+				A956A3561AC4F114000F928D /* icon120.png */,
+				A956A3571AC4F114000F928D /* icon58.png */,
+				A956A3581AC4F114000F928D /* icon80.png */,
+				A956A3591AC4F114000F928D /* logoP1.png */,
+				A956A35A1AC4F114000F928D /* logoP2.png */,
+				A956A35B1AC4F114000F928D /* logoP3.png */,
+				A956A35C1AC4F114000F928D /* logoP4.png */,
+				A9B5FBFF1AC51DD00012AD51 /* logo3.png */,
+				A956A35D1AC4F114000F928D /* menuAbout.png */,
+				A956A35E1AC4F114000F928D /* menuBG.png */,
+				A956A35F1AC4F114000F928D /* menuGameover.png */,
+				704947331ACCDF40007F1DB6 /* subMenu.png */,
+				A956A3601AC4F114000F928D /* menuInstructions.png */,
+				A956A3611AC4F114000F928D /* menuOptions.png */,
+				A956A3621AC4F114000F928D /* menuStatistics.png */,
+				A956A3631AC4F114000F928D /* meteorflame.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1E965D1AB0A91800C629C6 /* MeteorFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1E968A1AB0A91800C629C6 /* Build configuration list for PBXNativeTarget "MeteorFall" */;
+			buildPhases = (
+				6A1E965A1AB0A91800C629C6 /* Sources */,
+				6A1E965B1AB0A91800C629C6 /* Frameworks */,
+				6A1E965C1AB0A91800C629C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeteorFall;
+			productName = MeteorFall;
+			productReference = 6A1E965E1AB0A91800C629C6 /* MeteorFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A1E96781AB0A91800C629C6 /* MeteorFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1E968D1AB0A91800C629C6 /* Build configuration list for PBXNativeTarget "MeteorFallTests" */;
+			buildPhases = (
+				6A1E96751AB0A91800C629C6 /* Sources */,
+				6A1E96761AB0A91800C629C6 /* Frameworks */,
+				6A1E96771AB0A91800C629C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A1E967F1AB0A91800C629C6 /* PBXTargetDependency */,
+			);
+			name = MeteorFallTests;
+			productName = MeteorFallTests;
+			productReference = 6A1E96791AB0A91800C629C6 /* MeteorFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A1E96561AB0A91800C629C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UPEI;
+				TargetAttributes = {
+					6A1E96781AB0A91800C629C6 = {
+						TestTargetID = 6A1E965D1AB0A91800C629C6;
+					};
+				};
+			};
+			buildConfigurationList = 6A1E96591AB0A91800C629C6 /* Build configuration list for PBXProject "meteorfall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A1E96551AB0A91800C629C6;
+			productRefGroup = 6A1E965F1AB0A91800C629C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A1E965D1AB0A91800C629C6 /* MeteorFall */,
+				6A1E96781AB0A91800C629C6 /* MeteorFallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A1E965C1AB0A91800C629C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B5FC001AC51DD00012AD51 /* logo3.png in Resources */,
+				A956A3661AC4F114000F928D /* gameBG.png in Resources */,
+				A956A3731AC4F114000F928D /* menuInstructions.png in Resources */,
+				A956A3651AC4F114000F928D /* buttonR.png in Resources */,
+				A956A3701AC4F114000F928D /* menuAbout.png in Resources */,
+				A956A36F1AC4F114000F928D /* logoP4.png in Resources */,
+				A956A3681AC4F114000F928D /* gameHero2.png in Resources */,
+				6A1E96991AB0A97800C629C6 /* PlayViewController.xib in Resources */,
+				A956A36D1AC4F114000F928D /* logoP2.png in Resources */,
+				6AB5BC791ACDD498009BF647 /* gameHero6.png in Resources */,
+				6A91C5C91AB0B939007CDFD7 /* StatsViewController.xib in Resources */,
+				704947371ACD11C2007F1DB6 /* mfall.m4a in Resources */,
+				A956A3741AC4F114000F928D /* menuOptions.png in Resources */,
+				6A1E966C1AB0A91800C629C6 /* InfoPlist.strings in Resources */,
+				6A91C5C41AB0B926007CDFD7 /* OptionsViewController.xib in Resources */,
+				6A1E96941AB0A95300C629C6 /* MainViewController.xib in Resources */,
+				6AB5BC741ACDD163009BF647 /* SkinsViewController.xib in Resources */,
+				A956A3641AC4F114000F928D /* buttonL.png in Resources */,
+				A956A36A1AC4F114000F928D /* icon58.png in Resources */,
+				6A91C5CE1AB0B94E007CDFD7 /* InstructViewController.xib in Resources */,
+				704947341ACCDF40007F1DB6 /* subMenu.png in Resources */,
+				7012E41E1ACCCE2E0014042E /* Entitlements.plist in Resources */,
+				A956A3691AC4F114000F928D /* icon120.png in Resources */,
+				A956A3671AC4F114000F928D /* gameHero1.png in Resources */,
+				6A91C5D31AB0B962007CDFD7 /* AboutViewController.xib in Resources */,
+				A956A3761AC4F114000F928D /* meteorflame.png in Resources */,
+				A956A36B1AC4F114000F928D /* icon80.png in Resources */,
+				6AB5BC7C1ACDD498009BF647 /* gameHero3.png in Resources */,
+				A956A3721AC4F114000F928D /* menuGameover.png in Resources */,
+				A956A3751AC4F114000F928D /* menuStatistics.png in Resources */,
+				6AB5BC7B1ACDD498009BF647 /* gameHero4.png in Resources */,
+				6AB5BC7A1ACDD498009BF647 /* gameHero5.png in Resources */,
+				A956A36E1AC4F114000F928D /* logoP3.png in Resources */,
+				A956A36C1AC4F114000F928D /* logoP1.png in Resources */,
+				6A1E96741AB0A91800C629C6 /* Images.xcassets in Resources */,
+				A956A3711AC4F114000F928D /* menuBG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1E96771AB0A91800C629C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E96851AB0A91800C629C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A1E965A1AB0A91800C629C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E96981AB0A97800C629C6 /* PlayViewController.m in Sources */,
+				6A1E96721AB0A91800C629C6 /* AppDelegate.m in Sources */,
+				6AB5BC731ACDD163009BF647 /* SkinsViewController.m in Sources */,
+				6A91C5D21AB0B962007CDFD7 /* AboutViewController.m in Sources */,
+				6A91C5C81AB0B939007CDFD7 /* StatsViewController.m in Sources */,
+				6A91C5C31AB0B926007CDFD7 /* OptionsViewController.m in Sources */,
+				6A1E96931AB0A95300C629C6 /* MainViewController.m in Sources */,
+				6A91C5CD1AB0B94E007CDFD7 /* InstructViewController.m in Sources */,
+				6A1E966E1AB0A91800C629C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1E96751AB0A91800C629C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1E96871AB0A91800C629C6 /* MeteorFallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A1E967F1AB0A91800C629C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A1E965D1AB0A91800C629C6 /* MeteorFall */;
+			targetProxy = 6A1E967E1AB0A91800C629C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A1E966A1AB0A91800C629C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1E966B1AB0A91800C629C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A1E96831AB0A91800C629C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1E96841AB0A91800C629C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A1E96881AB0A91800C629C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A1E96891AB0A91800C629C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A1E968B1AB0A91800C629C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorFall/MeteorFall-Prefix.pch";
+				INFOPLIST_FILE = "MeteorFall/MeteorFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A1E968C1AB0A91800C629C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorFall/MeteorFall-Prefix.pch";
+				INFOPLIST_FILE = "MeteorFall/MeteorFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A1E968E1AB0A91800C629C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeteorFall.app/MeteorFall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorFall/MeteorFall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeteorFallTests/MeteorFallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A1E968F1AB0A91800C629C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeteorFall.app/MeteorFall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeteorFall/MeteorFall-Prefix.pch";
+				INFOPLIST_FILE = "MeteorFallTests/MeteorFallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A1E96591AB0A91800C629C6 /* Build configuration list for PBXProject "meteorfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1E96881AB0A91800C629C6 /* Debug */,
+				6A1E96891AB0A91800C629C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1E968A1AB0A91800C629C6 /* Build configuration list for PBXNativeTarget "MeteorFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1E968B1AB0A91800C629C6 /* Debug */,
+				6A1E968C1AB0A91800C629C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1E968D1AB0A91800C629C6 /* Build configuration list for PBXNativeTarget "MeteorFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1E968E1AB0A91800C629C6 /* Debug */,
+				6A1E968F1AB0A91800C629C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A1E96561AB0A91800C629C6 /* Project object */;
+}
